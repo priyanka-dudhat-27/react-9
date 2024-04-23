@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.product{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.box{
+  width: 250px;
+  height: 100%;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.title{
+  color: Green;
+  transition: all 0.5s ease-in-out;
+}
+.title:hover{
+  color:blueviolet;
+  transform: scale(1.5);
+}
+
